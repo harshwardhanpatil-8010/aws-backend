@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import bodyParser from "body-parser";
-import contactRouter from "../api/auth.js"; 
+import contactRouter from "./api/auth.js"; 
 import connectDB from "../config/db.js";
 import newslettersRouter from "../routes/newsletter.js";
 import eventsRouter from "../routes/events.js";
