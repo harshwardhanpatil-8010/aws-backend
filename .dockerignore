@@ -1,0 +1,29 @@
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore Docker-related files
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Ignore project documentation and configuration
+README.md
+.env
+
+# Ignore common language-specific files and directories
+# (e.g., Node.js, Python, etc.)
+node_modules
+npm-debug.log
+
+__pycache__/
+*.pyc
+*.pyo
+
+venv/
+env/
+
+# Ignore build outputs and log files
+dist
+build
+*.log
